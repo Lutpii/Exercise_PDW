@@ -1,0 +1,53 @@
+body{
+    background-color: #1A4846;
+    color: #e6dfcf;
+}
+
+
+.container {
+    border: 3px solid #e6dfcf;
+    padding: 0 20px 20px 20px;
+    display: grid;
+    border-radius: 10px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.kotak {
+    border: 2px solid #e6dfcf;
+    border-radius: 20px;
+    padding: 8px 20px 8px;
+}
+
+p,
+h1,
+h2 {
+    color: #e6dfcf;
+}
+
+h1 {
+    text-align: center;
+}
+
+.btn {
+    background-color: #477775;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.fix_{
+    position: fixed;
+}

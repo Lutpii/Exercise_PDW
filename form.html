@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pemesanan Tiket</title>
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <h3 style="text-align: center;">Pemesanan Tiket</h3>
+            </div>
+            <form action="">
+                <label for="nama">Nama :</label><br>
+                <input type="text" placeholder="Nama anda" id="nama"><br><br>
+                
+                <label for="no">No HP :</label><br>
+                <input type="number" placeholder="No HP anda" id="no"><br><br>
+
+                <label for="programming">Alamat :</label> <br>
+                <textarea placeholder="Tulis asal mu disini" name="alamat" id="alamat" cols="30" rows="5"></textarea>
+                <br><br>
+
+                <label for="tanggal">Tanggal :</label>
+                <input type="date" id="tanggal" name="tanggal"><br><br><br>
+
+                <label>Jenis Tiket:</label><br>
+                <input type="radio" name="tiket" id="reguler" value="Reguler">
+                <label for="tiket">Reguler</label> <br>
+                <input type="radio" name="tiket" id="vip" value="VIP">
+                <label for="tiket">VIP</label> <br>
+                <input type="radio" name="tiket" id="early" value="Early Bird">
+                <label for="tiket">Early Bird</label> <br>
+                <input type="radio" name="tiket" id="on" value="On The Spot">
+                <label for="on">On The Spot</label> <br> <br>
+
+
+
+                <label for="jumlah">Tiket :</label>
+                <select id="jumlah">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select><br><br>
+
+
+                <button class="btn" type="submit" onclick="kirimData()">Kirim</button>
+            </form>
+            <br>
+            <a href="index.html">
+                <button class="btn" style="background-color: red;">Back</button>
+            </a>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
